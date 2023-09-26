@@ -3,5 +3,6 @@ here is newbranch only content
 here is the text for newbranch
 fourth line 1
 this is the second branch
+changed
 some stuff
 
