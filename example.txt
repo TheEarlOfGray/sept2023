@@ -1,4 +1,7 @@
 here is some content
 here is newbranch only content
+here is the text for newbranch
+fourth line 1
 this is the second branch
 fourth line 2
+
