@@ -2,3 +2,5 @@ here is some content
 here is newbranch only content
 here is the text for newbranch
 this is the second branch
+this is the second branch
+fourth line 2
