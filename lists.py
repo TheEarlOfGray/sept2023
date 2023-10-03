@@ -1,7 +1,6 @@
-string1 = "Tom,Tim,Tam"
+string1 = ["Tom","Tim","Tam"]
 
-string1 = string1.split(",")
+string1[0] = "Dave"
 
 print(string1)
 
-print(','.join(string1))
