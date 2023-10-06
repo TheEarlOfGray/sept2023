@@ -21,12 +21,12 @@ def dbQuery(query):
 
 # result = dbQuery("SELECT * FROM company WHERE company_no>='1000' ORDER BY company_name DESC")
 
-result = dbQuery("SELECT company_name, post_code FROM company7")
+result = dbQuery("SELECT * FROM company")
 
 try:
     for row in result:
-        if row != None:    
-            print(row)
+        if row != None:
+            tup = tuple(row)  
+            print(tup)
 except:
     print("Error reading data!")
-    

@@ -7,12 +7,6 @@ class Student():
     def __repr__(self) -> str:
         return f"student name: {self.name}, Student age: {self.age}, Student class: {self.class_}."
 
-    # def gradeAdd(self, exam, value):
-    #     if exam == 1:
-    #         self.exam1 = value
-    #     elif exam == 2:
-    #         self.exam2 = value
-
     def gradeCalc(self, score1, score2, score3):
         return (score1 + score2 + score3) / 3
 
